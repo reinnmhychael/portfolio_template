@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f9fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    border-left: 4px solid #2196f3;
+    padding-left: 10px;
+    color: #0d47a1;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #666;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  .video-bg-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-bg-wrapper video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  .profile-square {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #0d6efd; /* Bootstrap primary */
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.75rem; /* Optional rounded corners */
+    background-color: #fff;
+  }
+  
+  .btn-light {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  .btn-light:hover {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
